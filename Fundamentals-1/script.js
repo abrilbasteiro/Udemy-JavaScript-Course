@@ -51,9 +51,9 @@ console.log(newDescription);
 
 // Taking Decisions: if / else Statements
 if (population > averagePop){
-    console.log(`${country}'s population is above average`)
+    console.log(`${country}'s population is above average`);
 } else {
-    console.log(`${country}'s population is ${averagePop - population} bellow average`)
+    console.log(`${country}'s population is ${averagePop - population} bellow average`);
 };
 
 // Type Conversion and Coercion
@@ -62,3 +62,14 @@ console.log('19' - '13' + '17'); // 617
 console.log('19' - '13' + 17); // 23
 console.log('123' < 57); // false
 console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
+
+// Equality Operators: == vs. ===
+const numNeighbours = Number(prompt('How many neighbour countries does your country have?'));
+
+if (numNeighbours === 1){
+    console.log('Only 1 border!');
+} else if (numNeighbours > 1){
+    console.log('More than 1 border');
+} else {
+    console.log('No borders');
+}
