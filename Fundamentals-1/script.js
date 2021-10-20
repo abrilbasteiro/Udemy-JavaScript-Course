@@ -103,3 +103,6 @@ switch (language) {
         console.log('Great language too :D');
         break;
 }
+
+// The Conditional (Ternary) Operator
+console.log(`${country}'s population is ${population > averagePop ? 'above' : 'below'} average`)
