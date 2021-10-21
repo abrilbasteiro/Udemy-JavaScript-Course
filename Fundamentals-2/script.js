@@ -42,3 +42,17 @@ console.log(alemania);
 
 const newZeland = percentageOfWorld2(5);
 console.log(newZeland);
+
+
+// Arrow Functions
+const percentageOfWorld3 = population => ((population / 7900) * 100).toFixed(2);
+
+const brasil = percentageOfWorld3(212);
+console.log(brasil);
+
+const paraguay = percentageOfWorld3(7);
+console.log(paraguay);
+
+const bolivia = percentageOfWorld3(11);
+console.log(bolivia);
+
