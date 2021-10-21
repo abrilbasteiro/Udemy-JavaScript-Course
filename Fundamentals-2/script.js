@@ -56,3 +56,13 @@ console.log(paraguay);
 const bolivia = percentageOfWorld3(11);
 console.log(bolivia);
 
+// Functions Calling Other Functions
+function describePopulation (country, population){
+    const percentage = percentageOfWorld1(population);
+    const description = `${country} has ${population} million people, wich is about ${percentage}% of the world`   
+    console.log(description) 
+}
+
+describePopulation("Chile", 19);
+describePopulation("Ecuador", 17);
+describePopulation("Colombia", 50);
